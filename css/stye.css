@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: start; 
+    background: rgba(255, 214, 172, 0.427);
+    font-family: "Outfit";
+}
+.container{
+    width: 650px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    gap: 2px;
+    margin: 60px;
+    padding-top: 29px;
+    border-radius: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image{
+    width: 572.86px;
+    border-radius: 35px;
+}
+.image-area{
+    height: 261.96px;
+}
+#title{
+    font-family: "young serif";
+    font-weight: normal;
+}
+.title-info{
+    margin-top: 20px;
+    width: 572.86px;
+}
+#ingredient-text{
+    color: rgb(146, 59, 59);
+    font-family: "young serif";
+    font-weight: normal;
+}
+#recipe-info{
+    margin-top: 20px;
+}
+#preparation{
+    color: rgb(137, 0, 94);
+    font-size: 17px;
+}
+.preparation-area{
+    justify-content: center;
+    width: 529.86px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: rgba(137, 0, 94, 0.07);
+}
+.total-prep-cookie{
+    margin-top: 10px;
+}
+#total{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+#prep{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+#cook{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.ingredients{
+    width: 572.86px;
+    margin-top: 30px;
+}
+.list{
+    margin-top: 20px;
+}
+#eggs{
+    margin-bottom: 8px;
+}
+#salt{
+    margin-bottom: 8px;
+}
+#pepper{
+    margin-bottom: 8px;
+}
+#butter{
+    margin-bottom: 8px;
+}
+#optional{
+    margin-bottom: 8px;
+}
+.instructions{
+    width: 572.86px;
+}
+#instruction-text{
+    margin-top: 15px;
+    color: rgb(146, 59, 59);
+    font-family: "young serif";
+    font-weight: normal;
+}
+hr{
+    margin-top: 25px;
+    color: rgba(68, 68, 68, 0.075);
+}
+.list2{
+    margin-top: 20px;
+    margin-left: 16px;
+}
+#beat-eggs{
+    margin-bottom: 8px;
+}
+#pan{
+    margin-bottom: 8px;
+}
+#omelette{
+    margin-bottom: 8px;
+}
+#fillings{
+    margin-bottom: 8px;
+}
+#serve{
+    margin-bottom: 8px;
+}
+#enjoy{
+    margin-bottom: 8px;
+}
+.nutrition{
+    width: 572.92px;
+}
+#nutrition-text{
+    margin-top: 15px;
+    color: rgb(146, 59, 59);
+    font-family: "young serif";
+    font-weight: normal;
+}
+#nutrition-desc{
+    margin-top: 15px;
+}
+.nutrition-table{
+    display: grid;
+    grid-template-columns: 286.46px 286.46px;
+    margin-top: 15px;
+    padding: 20px;
+    gap: 5px;
+    grid-template-areas: "calories kcal";
+}
+.calories-text{
+    grid-area: calories;
+    border-bottom: 1px solid #000000;
+}
+#calories-text{
+    width: 100px;
+}
+#kcal{
+    grid-area: kcal;
+}
+h3{
+    color: rgb(146, 59, 59);
+}
